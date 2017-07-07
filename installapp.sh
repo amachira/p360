@@ -47,14 +47,15 @@ sudo apt-get install -y awscli &
 wait
 sleep 10;
 
-git clone git@github.com:illinoistech-itm/amachira.git /home/ubuntu/amachira
+#git clone git@github.com:amachira/p360.git /home/ubuntu/
+git clone https://github.com/amachira/p360.git /home/ubuntu/p360/
 
 sleep 10;
-#rm -rf /var/www/html/*
-#sudo rm -rf /var/www/html/*
+rm -rf /var/www/html/*
+sudo rm -rf /var/www/html/*
 #sudo mv /home/ubuntu/vendor   /var/www/html/
 
-#sudo mv /home/ubuntu/amachira/*.php /var/www/html/
+sudo mv /home/ubuntu/p360/*.html /var/www/html/
 #sudo mv /home/ubuntu/amachira/*.css /var/www/html/
 #sudo mv /home/ubuntu/amachira/*.jpg /var/www/html/
 #sudo mv /home/ubuntu/amachira/*.png /var/www/html/
