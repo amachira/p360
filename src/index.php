@@ -23,20 +23,15 @@
 		   Tarun,
                    Jonathan,
                    Pooja
-                </p>
-                <?php
-                        $myfile = fopen("/var/www/my-vol/date", "r") or die("");
-                        echo fread($myfile,filesize("/var/www/my-vol/date"));
-                        fclose($myfile);
-                ?>
-<img src="http://img02.deviantart.net/e3e0/i/2015/072/c/b/team_miracle_workers_logo_by_socalledartist-d8liyvr.jpg" alt="W3Schools.com">
-            </div>
+                </p>               
+           </div>
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
-<img src="/images/image1.png" width="280" height="125" title="Logo of a company" alt="Logo of a company" />
-<img src="http://img02.deviantart.net/e3e0/i/2015/072/c/b/team_miracle_workers_logo_by_socalledartist-d8liyvr.jpg" alt="W3Schools.com">
+<img src="http://img02.deviantart.net/e3e0/i/2015/072/c/b/team_miracle_workers_logo_by_socalledartist-d8l
+iyvr.jpg" alt="W3Schools.com">
+
     </body>
 
 </html>
