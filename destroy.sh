@@ -29,4 +29,4 @@ echo "Delete load balancer listeners"
 #aws elb delete load-balancers
  aws elb delete-load-balancer --load-balancer-name performance360
 
-echo "Load Balacer Deleted"
+echo " The Load Balacer is Deleted"
