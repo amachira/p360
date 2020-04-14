@@ -5,7 +5,7 @@
 
 
 
-if(isset($_POST['Submit']))   // it checks whether the user clicked login button or not 
+if(isset($_POST['submit']))   // it checks whether the user clicked login button or not 
 {
 
 if (empty($_POST['username']) || empty($_POST['password'])) {
@@ -24,7 +24,7 @@ else
        {	  
 		          
         //echo '<script type="text/javascript"> window.open("welcome.php","_self");</script>';         
-		header('/welcome.php');
+		header('Location:/welcome.php');
         }
 
         else
