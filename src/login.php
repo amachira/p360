@@ -20,11 +20,11 @@ else
      $username = $_POST['username'];
      $password = $_POST['password'];
 
-      if($username == "anagesh" && $password == "1234")  
+      if($username == "testuser" && $password == "1234")  
        {	  
 		          
         //echo '<script type="text/javascript"> window.open("welcome.php","_self");</script>';         
-		header('Location:/welcome.php');
+		header('Location:welcome.php');
         }
 
         else
