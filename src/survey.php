@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Simple PHP App</title>
+        <title>Performance 360</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <style>body {margin-top: 40px; background-color: #26A860;}</style>
@@ -13,22 +13,31 @@
     </head>
 
     <body>
+	
         <div class="container">
             <div class="hero-unit">
-                <h1>Survey Page</h1>
-                <h2>Welcome to Performance P-360</h2>
-                <p>Rate your Employee </p>
-                <p>Project by Miracle Workers</p>
-                <p>Anageshwar
-                </p>               
+
+                </p>
            </div>
         </div>
-
+		
+	<a href="welcome.php">Welcome Page </a> | <a href="logout.php"> Logout </a>	
+	<style>
+	
+      body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  background: url("survey.jpg") 2% fixed;
+  background-size: cover;
+   
+}
+</style>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
-<img src="http://img02.deviantart.net/e3e0/i/2015/072/c/b/team_miracle_workers_logo_by_socalledartist-d8l
-iyvr.jpg" alt="W3Schools.com">
-
     </body>
 
 </html>
+
+
+
+
