@@ -40,7 +40,7 @@ img {
 }
 </style>
 <body>
-<form method="post">
+<form method="POST">
 <div id="main">
 <h1>ADP Performance 360 Application</h1>
 <fieldset >
@@ -52,7 +52,7 @@ img {
 
 <label for='password' >Password*:</label>
 <input type='password' name='password' id='password' placeholder="**********" maxlength="50" />
-<input type='submit' name='Submit' value='Login' style='width: 10%;height:6%; position: absolute; right: 600px; margin-top: -15px;' />
+<input type='submit' name='submit' value='Login' style='width: 20%;height:10%; right: 600px; margin-top: -15px;' />
 </fieldset>
 </div>
 </form>
