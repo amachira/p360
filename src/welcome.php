@@ -13,7 +13,7 @@
     </head>
 
     <body>
-	<a href="survey.php.html"> Employee Survey </a> | <a href="logout.php"> Logout </a>
+	<a href="survey.php"> Employee Survey </a> | <a href="logout.php"> Logout </a>
         <div class="container">
             <div class="hero-unit">
 
