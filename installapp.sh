@@ -3,33 +3,34 @@ echo "Hello" > /home/ubuntu/installapp.txt
 sudo apt-get update &
 wait
 
-sudo rm -f /var/lib/dpkg/lock
+#sudo rm -f /var/lib/dpkg/lock
 sudo dpkg --configure -a &
 wait
 sudo apt-get update &
 wait
 
-sudo apt-get install -y apache2 zip unzip php php-xml php-mysql curl php-curl git libapache2-mod-php7.0 &
+sudo apt-get install -y apache2 
+#zip unzip php php-xml php-mysql curl php-curl git libapache2-mod-php7.0 &
 wait
 echo $?
-sudo rm -f /var/lib/dpkg/lock
-sudo dpkg --configure -a &
+#sudo rm -f /var/lib/dpkg/lock
+#sudo dpkg --configure -a &
 wait
 sudo systemctl enable apache2
 sudo systemctl start apache2
 
-sudo apt-get install -y php7.0 php7.0-cli &
+#sudo apt-get install -y php7.0 php7.0-cli &
 echo $?
 wait
 
 sudo apt-get install -y curl php7.0-curl php7.0-mysql &
 echo $?
-sudo apt-get install -y libapache2-mod-php7.0 &
-sudo apt-get -f install -y php-gd &
+#sudo apt-get install -y libapache2-mod-php7.0 &
+#sudo apt-get -f install -y php-gd &
 echo $?
 #wait
-sudo rm -f /var/lib/dpkg/lock
-sudo dpkg --configure -a &
+#sudo rm -f /var/lib/dpkg/lock
+#sudo dpkg --configure -a &
 wait
 
 #export COMPOSER_HOME=/home/ubuntu 
