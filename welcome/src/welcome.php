@@ -13,7 +13,7 @@
     </head>
 
     <body>
-	<a href="http://192.168.99.100:4002/survey.php.html"> Employee Survey </a> | <a href="logout.php"> Logout </a>
+	<a href="survey.php"> Employee Survey </a> | <a href="logout.php"> Logout </a>
         <div class="container">
             <div class="hero-unit">
 
