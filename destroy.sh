@@ -17,7 +17,7 @@ echo "Launch Configuration deleted"
 echo "delete instances"
 
 #aws elb de register instances from load-balancer
-aws elb deregister-instances-from-load-balancer --load-balancer-name performance360 --instances $ID
+aws elb deregister-instances-from-load-balancer --load-balancer-name performance360
 
 echo "De register instances from the load balancer"
 
@@ -29,4 +29,4 @@ echo "Delete load balancer listeners"
 #aws elb delete load-balancers
  aws elb delete-load-balancer --load-balancer-name performance360
 
-echo " The Load Balacer is Deleted"
+ echo " The Load Balacer is Deleted"
