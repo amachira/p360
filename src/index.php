@@ -1,11 +1,9 @@
 ﻿<?php include('login.php'); // Includes Login Script
 
 if(isset($_SESSION['login_user'])){
-//header("location: welcome.php");
+
 }
 
- echo gethostname();
-  echo "hostname";
 
  ?>  
 
@@ -42,6 +40,7 @@ img {
 }
 </style>
 <body>
+<form method="POST">
 <div id="main">
 <h1>ADP Performance 360 Application</h1>
 <fieldset >
@@ -53,12 +52,10 @@ img {
 
 <label for='password' >Password*:</label>
 <input type='password' name='password' id='password' placeholder="**********" maxlength="50" />
-<form enctype="multipart/form-data" action="http://192.168.99.100:4001/welcome.php" method="POST">
-<input type='submit' name='Submit' value='Login' style='width: 10%;height:6%; position: absolute; right: 600px; margin-top: -32px;' />
-</form>
+<input type='submit' name='submit' value='Login' style='width: 20%;height:10%; right: 600px; margin-top: -15px;' />
 </fieldset>
 </div>
-
+</form>
 </body>
 
 <img src="adp logo" alt="W3Schools.com" style='width: 50%; float: bottom;'>
