@@ -9,7 +9,8 @@ wait
 sudo apt-get update &
 wait
 
-sudo apt-get install -y apache2 zip unzip php php-xml php-mysql curl php-curl git libapache2-mod-php7.0 &
+sudo apt-get install -y apache2 
+#zip unzip php php-xml php-mysql curl php-curl git libapache2-mod-php7.0 &
 wait
 echo $?
 sudo rm -f /var/lib/dpkg/lock
