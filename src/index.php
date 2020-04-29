@@ -42,7 +42,7 @@ img {
 <body>
 <form method="POST">
 <div id="main">
-<h1>ADP Performance 360 Application</h1>
+<h1>Performance 360 Application</h1>
 <fieldset >
 <legend>Login</legend>
 <input type='hidden' name='submitted' id='submitted' value='1'/>
@@ -58,7 +58,6 @@ img {
 </form>
 </body>
 
-<img src="adp logo" alt="W3Schools.com" style='width: 50%; float: bottom;'>
 </html>
 
 
