@@ -44,7 +44,7 @@ img {
 <div id="main">
 <h1>Performance 360 Application</h1>
 <fieldset >
-<legend>Login Details</legend>
+<legend>Please Enter Login Details</legend>
 <input type='hidden' name='submitted' id='submitted' value='1'/>
 
 <label for='username' >UserName*:</label>
